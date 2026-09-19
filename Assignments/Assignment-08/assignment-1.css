@@ -1,0 +1,51 @@
+body {
+    background-color: #2b2e56;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.green {
+    background-color: #6dbe4f;
+}
+
+.yellow {
+    background-color: #fbb22f;
+}
+
+.red {
+    background-color: #ec3437;
+}
+
+.child-1 {
+    grid-row: 1/ 4;
+}
+
+.child-2 {
+    grid-column: 2 / 4;
+}
+
+.child-4 {
+    grid-row: 2 / 3;
+}
+
+.child-5 {
+    grid-row: 2 / 3;
+}
+
+.child-6 {
+    grid-row: 4 / 2;
+}
+
+.child-7 {
+    grid-row: 3 / 4;
+}
+
+.child-8 {
+    grid-row: 3 / 4;
+}
