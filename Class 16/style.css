@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+    min-height: 50vh;
+    margin: auto;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: rgb(255, 0, 170);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.box>p {
+    font-weight: 600;
+    color: dodgerblue;
+    font-size: 3rem;
+    text-align: center;
+}
+
+#hero-banner {
+    width: 1000px;
+}

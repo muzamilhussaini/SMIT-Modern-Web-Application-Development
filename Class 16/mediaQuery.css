@@ -1,0 +1,134 @@
+@media (max-width: 1440px) {
+    #first-photo {
+        display: none;
+    }
+}
+
+@media (max-width: 2560px) {
+    #first-photo {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: blueviolet;
+    }
+
+    .box {
+        width: 60vw;
+        min-height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .box>h1 {
+        background: linear-gradient(45deg, rgb(190, 169, 169), rgb(23, 176, 196));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    .box>p {
+        background-color: aquamarine;
+        color: rgb(14, 27, 39);
+        font-size: 2rem;
+        text-align: justify;
+        margin: 0 10px;
+        padding: 10px;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+
+    #first-photo {
+        margin-top: 10px;
+        width: 445px;
+        display: block;
+    }
+
+    #hero-banner {
+        display: none;
+    }
+}
+
+@media (max-width: 445px) {
+    .box {
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .box>h1 {
+        font-size: 2rem;
+    }
+
+    body {
+        background-color: black;
+    }
+
+    .box>p {
+        background-color: rgb(196, 179, 27);
+        color: rgb(14, 27, 39);
+        font-size: 1.5rem;
+        text-align: justify;
+        margin: 0 10px;
+        padding: 10px;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .box>#second-photo {
+        display: block !important;
+        width: 236px;
+        margin-top: 10px;
+    }
+
+    #first-photo {
+        display: none;
+    }
+
+    .content {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 320px) {
+    .box {
+        width: 60vw;
+        height: 50vh;
+    }
+
+    .box>h1 {
+        font-size: 2rem;
+    }
+
+    body {
+        background-color: rgb(31, 91, 182);
+    }
+
+    .box>p {
+        background-color: rgb(196, 179, 27);
+        color: rgb(14, 27, 39);
+        font-size: 1rem;
+        text-align: justify;
+        margin: 0 10px;
+        padding: 10px;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .box>#second-photo {
+        display: block !important;
+        width: 170px;
+        margin-top: 10px;
+    }
+}
