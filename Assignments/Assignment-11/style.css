@@ -1,5 +1,56 @@
 * {
     margin: 0;
-    padding: 0;;
+    padding: 0;
+    ;
     box-sizing: border-box;
+}
+
+.btn-custom {
+    background-color: #6c5ce7;
+    color: #ffffff;
+    border: 1px solid #6c5ce7;
+}
+
+.btn-custom:hover {
+    background-color: #5a4bcf;
+    color: #ffffff;
+}
+
+.carousel-item img {
+    height: 800px;
+    object-fit: cover;
+}
+
+.card-body>small {
+    display: block;
+    color: rgb(73, 73, 218);
+    font-size: 1.2rem;
+}
+
+
+.responsive-carousel-img {
+    height: 80vh;
+    min-height: 500px;
+    max-height: 700px;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 992px) {
+    .responsive-carousel-img {
+        height: 40vh;
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .responsive-carousel-img {
+        height: 350px !important;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+.featurette-divider {
+    color: rgba(0, 0, 0, 0.37);
 }
