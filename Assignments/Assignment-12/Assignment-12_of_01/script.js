@@ -4,9 +4,9 @@
 //  Use alert() to display:  "Welcome, [name]!" 
 //  Concepts used: prompt, alert, var, concatenation 
 
-// var userName = prompt("Enter your name ");
+var userName = prompt("Enter your name ");
 
-// alert("Welcome, " + userName + " !");
+alert("Welcome, " + userName + " !");
 
 // ==================================================================================
 
@@ -16,10 +16,10 @@
 //  Log this message in the console:  "[name] is [age] years old." 
 //  Concepts used: prompt, console.log, var, concatenation
 
-// var usrName = prompt("Enter your name ");
-// var age = prompt("Enter your age ");
+var usrName = prompt("Enter your name ");
+var age = prompt("Enter your age ");
 
-// console.log(usrName + " is " + age + " years old.");
+console.log(usrName + " is " + age + " years old.");
 
 
 // ==================================================================================
@@ -30,8 +30,8 @@
 //  Show an alert like:  "Wow! [color] is a nice color!" 
 //  Concepts used: prompt, alert, var, concatenation
 
-// var favoriteColor = prompt("Enter your favorite color");
-// alert("Wow! " + favoriteColor + " is a nice color!");
+var favoriteColor = prompt("Enter your favorite color");
+alert("Wow! " + favoriteColor + " is a nice color!");
 
 
 // ==================================================================================
