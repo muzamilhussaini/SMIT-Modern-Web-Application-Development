@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1.  Select a paragraph with id "message" and change its text to "Welcome!".  -->
+    <p id="message">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, placeat?</p>
+    <!-- <button onclick="getPara()">change the para</button> -->
+
+
+    <!-- 2.  Get the value from an input with id "nameInput" and display it inside a div with id "result -->
+    <input type="text" id="nameInput" >
+    <div id="result"></div>
+    <button onclick=" getInput()">click me!</button>
+
+    <!-- 3.  When a button is clicked, change the background color of a section with id "container" to light blue. -->
+
+    <section id="container">
+        
+    </section>
+    <button onclick="btnClick()">Change the color of a section</button>
+
+
+    <!-- 4.  Select a heading (h1) with id "mainTitle" and change its color to red.  -->
+    <h1 id="mainTitle">Today, we learn about DOM Manipulation</h1>
+
+
+    <!-- 5.  Get the number from an input with id "num1" and show it inside a paragraph with id "output". -->
+
+    <input type="number" id="num1">
+    <p id="output"></p>
+    <button onclick="numberOutput()">See your output number!</button>
+
+
+    <!-- 6.  Select a button with class "submit-btn" and log "Button Clicked" to the console  when it's clicked. -->
+    <button class="submit-btn" onclick="checkingOutput()">Click Here and see the output on console.</button>
+
+    <br><br>
+    <!-- 7.  Get values from two inputs with ids "first" and "second", add them (as numbers), and show the result in a span with id "sum" -->
+
+    <input type="number" id="first">
+    <input type="number" id="second">
+    <button onclick="sumTwoNumbers()">Add</button>
+    <span id="sum"></span>
+
+
+    <!-- 8.  Change the text of a paragraph with class "description" to "Updated successfully". -->
+    <p class="description highlight" onclick="changedPara()">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, cum.</p>
+
+    <!-- 9.  Select a div with id "box" and set its width to 200px and background color to green.  -->
+    <div id="box" onclick="changingDiv()">Click me and see the magic</div>
+    <!-- <button onclick="changingDiv()">Click me and see the magic</button> -->
+
+    <br>
+
+    <!-- 10. Get the email entered in an input with id "email" and print it in the console. -->
+    <input type="email" id="email" placeholder="Enter your email">
+    <button onclick="emailName()">Enter it and see in the console</button>
+
+    <br>
+
+    <!-- 11. Select a paragraph and update its font size to 24px.  -->
+    <p class="paragraph highlight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et modi quo ducimus hic nostrum repellendus, id, dicta ex voluptates nam sit delectus reiciendis est accusantium, quaerat expedita harum esse provident?</p>
+
+
+    <!-- 12. On button click, get a name from input "fullName" and set the text "Hello, [name]" inside a div "greeting". -->
+    <input type="text" placeholder="Enter your full name" id="fullName">
+    <div id="greeting" ></div>
+    <button onclick="userName()" class="greetingBtn">Enter</button>
+
+    <br>
+
+    <!-- 13. Select an image with id "profilePic" and change its src to another image URL. -->
+
+    <img src="filip-kvasnak-2xGmnkhF5rE-unsplash.jpg" alt="Nature Image" id="profilePic">
+    <!-- <button >Click Me to change the image</button> -->
+
+    <br> 
+
+    <!-- 14. Change the text color of all elements with class "highlight" to orange.(Hint: You’ll need querySelectorAll for multiple) -->
+
+    <h2 class="highlight">Hello JavaScript!</h2>
+    <p class="highlight">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione porro aut facilis similique, assumenda quae eligendi inventore mollitia dolore libero!</p>
+
+
+    <!-- 15. Select a checkbox with id "agree" and check whether it is checked or not, then display "Agreed" or "Not Agreed" in a paragraph. -->
+    <input type="checkbox" id="agree" onclick="isChecked()">
+
+    <p id="checkedAgreeOrNot"></p>
+
+
+    <!-- 16. Get the selected value from a dropdown (select element) with id "options" and display it in "selectedValue" span. -->
+
+    <select name="" id="options" onclick="valueSelected()">
+        <!-- <option value="Select your favorite fruits and see the, what you have been selected" disabled selected>Select your favorite fruits in these option</option> -->
+        <option value="Apple">Apple</option>
+        <option value="Banana">Banana</option>
+        <option value="Orange">Orange</option>
+    </select>
+
+    <span id="spanSelect"></span>
+
+    <br>
+
+    <!-- 17. When a button is clicked, show the current date and time inside a paragraph with id "dateTime". -->
+    
+    <button onclick="timeShowing()">Show Date and Time</button>
+    <p id="dateTime"></p>
+
+
+    <!-- 18. Select a paragraph with id "togglePara" and hide it (set display: none). -->
+
+    <p id="togglePara">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum veritatis cumque officia error ducimus neque omnis corporis explicabo ut et.</p>
+    <button onclick="toggle()">Toggle Para</button>
+
+    <br><br>
+
+    <!-- 19. Get a user’s age from an input with id "age" and display "Eligible" if age >= 18, else "Not Eligible" in a span. -->
+    <input type="number" id="age">
+    <span id="eligible"></span> <br> 
+    <button onclick="eligibleChecker()">See, Are you eligible for test or not?</button>
+
+    <br>
+    <!-- 20. When a button is clicked, clear the value of an input with id "searchBox". -->
+    <button onclick="clearValue()">Clear Input value</button>
+    <input type="text" id="searchBox" value="Apple">
+
+    <script src="DOM_Manipulation.js"></script>
+</body>
+</html>
